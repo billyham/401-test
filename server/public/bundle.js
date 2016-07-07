@@ -31675,7 +31675,7 @@
 /* 8 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n  <h2>{{$ctrl.name}}</h2>\n  <p>\n  <span ng-show=\"$ctrl.description\">Description: {{$ctrl.description}}</span>\n  <span ng-show=\"$ctrl.catchPhrase\">Catch Phrase is: {{$ctrl.catchPhrase}}</span>\n  </p>\n<div>\n";
+	module.exports = "<div>\n  <h3 class=\"name\">{{$ctrl.name}}</h3>\n  <p>\n  <span ng-show=\"$ctrl.description\">Description: <span class=\"colorfultext\">{{$ctrl.description}}</span></span>\n  <span ng-show=\"$ctrl.catchPhrase\">Catch Phrase is: <span class=\"colorfultext\">{{$ctrl.catchPhrase}}</span></span>\n  </p>\n<div>\n";
 
 /***/ },
 /* 9 */
@@ -31766,7 +31766,6 @@
 	
 	  return {
 	    get: function get() {
-	      console.log('get fires');
 	      return $http.get(charUrl).then(function (result) {
 	        return result.data;
 	      });
@@ -31814,7 +31813,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  background-color: yellow;\n}\n\np, h1, h2, h3, button {\n  font-family: sans-serif;\n}\n\np {\n  color: blue;\n}\n\nh2, h3 {\n  color: brown;\n}\n\nspan {\n  margin-right: 1em;\n}\n", ""]);
+	exports.push([module.id, "body {\n  background-color: yellow;\n}\n\np, h1, h2, h3, button {\n  font-family: sans-serif;\n}\n\np {\n  margin-top: 3px;\n}\n\nh2, h3 {\n  color: brown;\n}\n\nspan {\n  margin-right: 1em;\n}\n\n.name {\n  display: inline;\n}\n\n.colorfultext {\n  color: blue;\n}\n", ""]);
 	
 	// exports
 

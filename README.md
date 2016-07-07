@@ -8,9 +8,11 @@ MONGO\_URI
 for example: MONGO\_URI=mongodb://localhost
 
 To launch the app after cloning (from the root directory):  
-- cd app npm install
+- cd app
+- npm install
 - npm run build
-- cd ../server npm install
+- cd ../server
+- npm install
 - npm run dev
 
 The server will run on port 3000 unless you provide a port with the following environment variable:  
@@ -24,4 +26,4 @@ You can also run the client side app on it's on port by running:
 
 --
 
-When you are up and running, you can freely add your favorite Simpsons characters. The __name__ field is required. __Description__ and __Catch Phrase__ are optional. 
+When you are up and running, you can freely add your favorite Simpsons characters. The __name__ field is required. __Description__ and __Catch Phrase__ are optional.
