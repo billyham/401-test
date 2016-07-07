@@ -1,0 +1,27 @@
+body {
+  background-color: yellow;
+}
+
+p, h1, h2, h3, button {
+  font-family: sans-serif;
+}
+
+p {
+  margin-top: 3px;
+}
+
+h2, h3 {
+  color: brown;
+}
+
+span {
+  margin-right: 1em;
+}
+
+.name {
+  display: inline;
+}
+
+.colorfultext {
+  color: blue;
+}

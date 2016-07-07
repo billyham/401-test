@@ -1,0 +1,34 @@
+{
+  "name": "full-stack-test-app",
+  "version": "1.0.0",
+  "description": "App for 401 test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "start": "webpack-dev-server --inline"
+  },
+  "author": "Dave Hanagan",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.0.1",
+    "eslint-loader": "^1.4.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "babel": {
+  "presets": [
+    "es2015"
+  ]
+}
+}

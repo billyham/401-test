@@ -1,0 +1,7 @@
+<div>
+  <h1>Characters From the Simpsons</h1>
+  <char ng-repeat="char in $ctrl.chars" name="char.name" description="char.description" catch-phrase="char.catchPhrase"></char>
+  <br />
+  <h3>Add your favorite character<h3>
+  <add-char chars="$ctrl.chars"><add-char>
+</div>
